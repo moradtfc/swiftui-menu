@@ -12,7 +12,7 @@ struct SideMenuView: View {
     
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color.blue, Color.purple]), startPoint: .top, endPoint: .bottom)
+            LinearGradient(gradient: Gradient(colors: [Color.black, Color.pink]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             
@@ -34,14 +34,16 @@ struct SideMenuView: View {
                 Spacer()
                 
             }
-            
-            
+    
         }.navigationBarHidden(true)
     }
 }
 
 struct SideMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        SideMenuView(isShowing: .constant(true))
+        Group {
+            SideMenuView(isShowing: .constant(true))
+      
+        }
     }
 }

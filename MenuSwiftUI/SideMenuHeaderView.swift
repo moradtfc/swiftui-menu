@@ -20,7 +20,7 @@ struct SideMenuHeaderView: View {
             }, label: {
                 Image(systemName: "xmark")
                     .frame(width: 32, height: 32)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                     .padding()
             })
             VStack(alignment: .leading){
@@ -33,7 +33,7 @@ struct SideMenuHeaderView: View {
                     .padding(.bottom, 16)
                 Text("Jesús Mora")
                     .font(.system(size: 25, weight: .semibold))
-                Text("@jesusmora92").font(.system(size:16)).padding(0.0)
+                Text("@morajesus92").font(.system(size:16)).padding(0.0)
                 
                 //followers and following
                 HStack(spacing:12){

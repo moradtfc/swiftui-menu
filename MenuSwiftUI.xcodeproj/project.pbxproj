@@ -60,6 +60,7 @@
 		4F17045426362B8000706360 /* MenuSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F96CE86A27FF35A10097E18C /* Model */,
 				4F17045526362B8000706360 /* MenuSwiftUIApp.swift */,
 				4F17045726362B8000706360 /* ContentView.swift */,
 				4F17045926362B8100706360 /* Assets.xcassets */,
@@ -68,7 +69,6 @@
 				4F67100B2638B95500DDC724 /* SideMenuView.swift */,
 				4F67100E2638B97600DDC724 /* SideMenuHeaderView.swift */,
 				4F6710112638B99400DDC724 /* SideMenuOptionView.swift */,
-				4F6710142638B9B900DDC724 /* SideMenuViewModel.swift */,
 			);
 			path = MenuSwiftUI;
 			sourceTree = "<group>";
@@ -79,6 +79,14 @@
 				4F17045C26362B8100706360 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F96CE86A27FF35A10097E18C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F6710142638B9B900DDC724 /* SideMenuViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +296,7 @@
 				DEVELOPMENT_TEAM = W6C3W6NZ55;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MenuSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +318,7 @@
 				DEVELOPMENT_TEAM = W6C3W6NZ55;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MenuSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
